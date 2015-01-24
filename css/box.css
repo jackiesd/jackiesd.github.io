@@ -1,0 +1,20 @@
+* {
+	margin: 0px;
+	padding: 0px; }
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.container {
+	box-shadow: 7px 7px 20px #b8b8b8;
+	width: 1366px;
+	position: relative;
+	padding: 0px;
+	padding-top: -10px;
+}
+
+#header {
+	background-image: url(../img/header_new.jpg);
+	min-width: 100%;
+	min-height: 200px;
+}

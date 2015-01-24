@@ -1,0 +1,167 @@
+* {
+	margin: 0px;
+	padding: 0px; }
+
+/* HOME */
+.home {
+	background-image: url(../img/home.jpg);
+	margin: 0 auto;
+	position: relative;
+	height: 1130px;
+}
+
+.projects {
+	position: relative;
+	top: 30px;
+	left: 30px;
+	transform:rotate(-3deg);
+	opacity: 0;
+}
+
+.projects_text {
+	position: absolute;
+	top: 65px;
+	left: 40px;
+	width: 250px;
+}
+
+.projects_postit {
+	width: 50px;
+	top: 0;
+	left: 0;
+
+}
+
+/* INDEX END */
+
+
+
+/* NAV */
+#nav {
+	margin-left: 80px;
+	padding-top: 80px;
+}
+
+#nav img {
+	align: left;
+	padding-left: 40px;
+	display: inline;
+}
+
+
+
+/* WORK */
+.work {
+	background-image: url(../img/work.jpg);
+	padding: 0px 40px;
+}
+
+.work img {
+	display: table;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.postit {
+	background-image: url(../img/postit.png);
+	background-repeat: no-repeat;
+	margin-left: 32px;
+	margin-top: 10px;
+	padding: 10px;
+	height: 400px;
+	width: 90%;
+}
+
+.postit > h1 {
+	font-size: 1.2em;
+	margin: 25px 0px 10px 35px;
+	color: #000;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+.postit > p {
+	width: 85%;
+	font-size: 0.9em;
+	color: #767676;
+	margin: 0px 0px 13px 37px;
+	padding-right: 50px;
+	line-height: 28px;
+}
+
+.postit_small {
+	background-image: url(../img/postit_small.png);
+	background-repeat: no-repeat;
+	margin: 5px 0px 10px 35px;
+	padding: 1px;
+	height: 65px;
+	width: 290px;
+}
+
+.postit_small > h1 {
+	font-size: 1.3em;
+	margin: 25px 0px 10px 35px;
+	color: #000;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+.contact .postit {
+	padding-top: 10px;
+	margin-top: -10px;
+	position: absolute;
+	left: 850px;
+	z-index: 1;
+}
+
+.contact h2 {
+	font-size: 1.3em;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	color: #444;
+}
+
+
+.contact h3 {
+	font-size: 1.1em;
+	padding-left: 30px;
+	color: #666;
+}
+
+.work .row {
+		display: block;
+		margin: 0px auto;
+}
+
+.hidden {
+	display: none;
+}
+
+.block {
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+/* WEB */
+.web {
+	top: 0px;
+	left: 0px;
+	padding: 30px;
+}
+
+
+/* GRAFICS */
+.grafics {
+	top: 0px;
+	left: 0px;
+	padding: 30px;
+}
+
+/* CONTACT */
+.contact {
+	top: 0px;
+	left: 0px;
+	padding: 30px;
+}
